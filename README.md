@@ -1,4 +1,4 @@
-Phone Validator API
+Phone Number Validator API
 ============
 
 Phone Number Validator is a simple tool for validating if a phone number is valid or not. It checks the phone number format and the country code to see if the phone number is valid.
@@ -7,12 +7,12 @@ Phone Number Validator is a simple tool for validating if a phone number is vali
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Phone Validator API](https://apiverve.com/marketplace/api/phonenumbervalidator)
+This is a Python API Wrapper for the [Phone Number Validator API](https://apiverve.com/marketplace/api/phonenumbervalidator)
 
 ---
 
 ## Installation
-	pip install apiverve-phonevalidator
+	pip install apiverve-phonenumbervalidator
 
 ---
 
@@ -25,14 +25,14 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Phone Validator API documentation is found here: [https://docs.apiverve.com/api/phonenumbervalidator](https://docs.apiverve.com/api/phonenumbervalidator).  
+The Phone Number Validator API documentation is found here: [https://docs.apiverve.com/api/phonenumbervalidator](https://docs.apiverve.com/api/phonenumbervalidator).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ```
 # Import the client module
-from apiverve_phonevalidator.apiClient import PhonenumbervalidatorAPIClient
+from apiverve_phonenumbervalidator.apiClient import PhonenumbervalidatorAPIClient
 
 # Initialize the client with your APIVerve API key
 api = PhonenumbervalidatorAPIClient("[YOUR_API_KEY]")
@@ -80,7 +80,8 @@ print(result)
       "rfc": "tel:+1-816-555-1017",
       "e164": "+18165551017"
     }
-  }
+  },
+  "code": 200
 }
 ```
 
